@@ -1,0 +1,219 @@
+antecedents,consequents,antecedent support,consequent support,support支持度,confidence置信度,lift提升度,leverage,conviction,antecedents_len
+frozenset({'aaa'}),frozenset({'bbb'}),1.0,0.5,0.5,0.5,1.0,0.0,1.0,1
+frozenset({'bbb'}),frozenset({'aaa'}),0.5,1.0,0.5,1.0,1.0,0.0,inf,1
+frozenset({'aaa'}),frozenset({'ccc'}),1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'ccc'}),frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,1
+frozenset({'aaa'}),frozenset({'ddd'}),1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'ddd'}),frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,1
+frozenset({'aaa'}),frozenset({'eee'}),1.0,0.5,0.5,0.5,1.0,0.0,1.0,1
+frozenset({'eee'}),frozenset({'aaa'}),0.5,1.0,0.5,1.0,1.0,0.0,inf,1
+frozenset({'fff'}),frozenset({'aaa'}),0.75,1.0,0.75,1.0,1.0,0.0,inf,1
+frozenset({'aaa'}),frozenset({'fff'}),1.0,0.75,0.75,0.75,1.0,0.0,1.0,1
+frozenset({'bbb'}),frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ccc'}),frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'bbb'}),frozenset({'eee'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+frozenset({'eee'}),frozenset({'bbb'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+frozenset({'fff'}),frozenset({'bbb'}),0.75,0.5,0.5,0.6666666666666666,1.3333333333333333,0.125,1.4999999999999998,1
+frozenset({'bbb'}),frozenset({'fff'}),0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf,1
+frozenset({'ccc'}),frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'eee'}),frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'fff'}),frozenset({'ccc'}),0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'ccc'}),frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,1
+frozenset({'eee'}),frozenset({'ddd'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ddd'}),frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'fff'}),frozenset({'ddd'}),0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'ddd'}),frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,1
+frozenset({'fff'}),frozenset({'eee'}),0.75,0.5,0.5,0.6666666666666666,1.3333333333333333,0.125,1.4999999999999998,1
+frozenset({'eee'}),frozenset({'fff'}),0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf,1
+"frozenset({'ccc', 'aaa'})",frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'bbb'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,2
+"frozenset({'aaa', 'bbb'})",frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+frozenset({'ccc'}),"frozenset({'aaa', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'aaa'}),"frozenset({'ccc', 'bbb'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'bbb'}),"frozenset({'ccc', 'aaa'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+"frozenset({'aaa', 'eee'})",frozenset({'bbb'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'aaa', 'bbb'})",frozenset({'eee'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'bbb', 'eee'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,2
+frozenset({'aaa'}),"frozenset({'bbb', 'eee'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'aaa', 'bbb'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+frozenset({'bbb'}),"frozenset({'aaa', 'eee'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+"frozenset({'fff', 'aaa'})",frozenset({'bbb'}),0.75,0.5,0.5,0.6666666666666666,1.3333333333333333,0.125,1.4999999999999998,2
+"frozenset({'fff', 'bbb'})",frozenset({'aaa'}),0.5,1.0,0.5,1.0,1.0,0.0,inf,2
+"frozenset({'aaa', 'bbb'})",frozenset({'fff'}),0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf,2
+frozenset({'fff'}),"frozenset({'aaa', 'bbb'})",0.75,0.5,0.5,0.6666666666666666,1.3333333333333333,0.125,1.4999999999999998,1
+frozenset({'aaa'}),"frozenset({'fff', 'bbb'})",1.0,0.5,0.5,0.5,1.0,0.0,1.0,1
+frozenset({'bbb'}),"frozenset({'fff', 'aaa'})",0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf,1
+"frozenset({'aaa', 'eee'})",frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'aaa', 'ccc'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'eee'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,2
+frozenset({'aaa'}),"frozenset({'ccc', 'eee'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'aaa', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ccc'}),"frozenset({'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+"frozenset({'fff', 'aaa'})",frozenset({'ccc'}),0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,2
+"frozenset({'fff', 'ccc'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,2
+"frozenset({'aaa', 'ccc'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'aaa', 'ccc'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'aaa'}),"frozenset({'fff', 'ccc'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'ccc'}),"frozenset({'fff', 'aaa'})",0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,1
+"frozenset({'aaa', 'ddd'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'aaa', 'eee'})",frozenset({'ddd'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'eee', 'ddd'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,2
+frozenset({'aaa'}),"frozenset({'eee', 'ddd'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'ddd'}),"frozenset({'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'eee'}),"frozenset({'aaa', 'ddd'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+"frozenset({'fff', 'aaa'})",frozenset({'ddd'}),0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,2
+"frozenset({'fff', 'ddd'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,2
+"frozenset({'aaa', 'ddd'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'aaa', 'ddd'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'aaa'}),"frozenset({'fff', 'ddd'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'ddd'}),"frozenset({'fff', 'aaa'})",0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,1
+"frozenset({'fff', 'aaa'})",frozenset({'eee'}),0.75,0.5,0.5,0.6666666666666666,1.3333333333333333,0.125,1.4999999999999998,2
+"frozenset({'fff', 'eee'})",frozenset({'aaa'}),0.5,1.0,0.5,1.0,1.0,0.0,inf,2
+"frozenset({'aaa', 'eee'})",frozenset({'fff'}),0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf,2
+frozenset({'fff'}),"frozenset({'aaa', 'eee'})",0.75,0.5,0.5,0.6666666666666666,1.3333333333333333,0.125,1.4999999999999998,1
+frozenset({'aaa'}),"frozenset({'fff', 'eee'})",1.0,0.5,0.5,0.5,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'fff', 'aaa'})",0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf,1
+"frozenset({'bbb', 'eee'})",frozenset({'ccc'}),0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+"frozenset({'bbb', 'ccc'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'eee'})",frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+frozenset({'bbb'}),"frozenset({'ccc', 'eee'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'eee'}),"frozenset({'bbb', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ccc'}),"frozenset({'bbb', 'eee'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,1
+"frozenset({'fff', 'bbb'})",frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'ccc'})",frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'bbb', 'ccc'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'bbb', 'ccc'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'bbb'}),"frozenset({'fff', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ccc'}),"frozenset({'fff', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+"frozenset({'fff', 'bbb'})",frozenset({'eee'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'fff', 'eee'})",frozenset({'bbb'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'bbb', 'eee'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'bbb', 'eee'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'bbb'}),"frozenset({'fff', 'eee'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'fff', 'bbb'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+"frozenset({'fff', 'ccc'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'fff', 'eee'})",frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'ccc', 'eee'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'ccc', 'eee'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'ccc'}),"frozenset({'fff', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'eee'}),"frozenset({'fff', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+"frozenset({'fff', 'eee'})",frozenset({'ddd'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'ddd'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'eee', 'ddd'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'eee', 'ddd'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'eee'}),"frozenset({'fff', 'ddd'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ddd'}),"frozenset({'fff', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+"frozenset({'ccc', 'eee', 'aaa'})",frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'ccc', 'aaa', 'bbb'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'ccc', 'eee', 'bbb'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,3
+"frozenset({'aaa', 'eee', 'bbb'})",frozenset({'ccc'}),0.25,0.25,0.25,1.0,4.0,0.1875,inf,3
+"frozenset({'ccc', 'aaa'})","frozenset({'bbb', 'eee'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+"frozenset({'ccc', 'eee'})","frozenset({'aaa', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'bbb'})","frozenset({'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'aaa', 'eee'})","frozenset({'ccc', 'bbb'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'aaa', 'bbb'})","frozenset({'ccc', 'eee'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'bbb', 'eee'})","frozenset({'ccc', 'aaa'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+frozenset({'ccc'}),"frozenset({'aaa', 'eee', 'bbb'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,1
+frozenset({'aaa'}),"frozenset({'ccc', 'eee', 'bbb'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'ccc', 'aaa', 'bbb'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'bbb'}),"frozenset({'ccc', 'eee', 'aaa'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+"frozenset({'fff', 'ccc', 'aaa'})",frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'ccc', 'aaa', 'bbb'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,3
+"frozenset({'fff', 'ccc', 'bbb'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,3
+"frozenset({'fff', 'aaa', 'bbb'})",frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,3
+"frozenset({'ccc', 'aaa'})","frozenset({'fff', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'fff', 'ccc'})","frozenset({'aaa', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'bbb'})","frozenset({'fff', 'aaa'})",0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+"frozenset({'fff', 'aaa'})","frozenset({'ccc', 'bbb'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,2
+"frozenset({'aaa', 'bbb'})","frozenset({'fff', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'bbb'})","frozenset({'ccc', 'aaa'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+frozenset({'ccc'}),"frozenset({'fff', 'aaa', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'aaa'}),"frozenset({'fff', 'ccc', 'bbb'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'fff'}),"frozenset({'ccc', 'aaa', 'bbb'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'bbb'}),"frozenset({'fff', 'ccc', 'aaa'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+"frozenset({'fff', 'aaa', 'eee'})",frozenset({'bbb'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,3
+"frozenset({'fff', 'aaa', 'bbb'})",frozenset({'eee'}),0.5,0.5,0.25,0.5,1.0,0.0,1.0,3
+"frozenset({'fff', 'bbb', 'eee'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,3
+"frozenset({'aaa', 'eee', 'bbb'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,3
+"frozenset({'fff', 'aaa'})","frozenset({'bbb', 'eee'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,2
+"frozenset({'fff', 'eee'})","frozenset({'aaa', 'bbb'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'fff', 'bbb'})","frozenset({'aaa', 'eee'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'aaa', 'eee'})","frozenset({'fff', 'bbb'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'aaa', 'bbb'})","frozenset({'fff', 'eee'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,2
+"frozenset({'bbb', 'eee'})","frozenset({'fff', 'aaa'})",0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'aaa', 'eee', 'bbb'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'aaa'}),"frozenset({'fff', 'bbb', 'eee'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'fff', 'aaa', 'bbb'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+frozenset({'bbb'}),"frozenset({'fff', 'aaa', 'eee'})",0.5,0.5,0.25,0.5,1.0,0.0,1.0,1
+"frozenset({'fff', 'aaa', 'eee'})",frozenset({'ccc'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,3
+"frozenset({'fff', 'aaa', 'ccc'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'fff', 'ccc', 'eee'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,3
+"frozenset({'aaa', 'eee', 'ccc'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,3
+"frozenset({'fff', 'aaa'})","frozenset({'ccc', 'eee'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,2
+"frozenset({'fff', 'eee'})","frozenset({'aaa', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'ccc'})","frozenset({'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'aaa', 'eee'})","frozenset({'fff', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'aaa', 'ccc'})","frozenset({'fff', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'eee'})","frozenset({'fff', 'aaa'})",0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'aaa', 'eee', 'ccc'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'aaa'}),"frozenset({'fff', 'ccc', 'eee'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'fff', 'aaa', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ccc'}),"frozenset({'fff', 'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+"frozenset({'fff', 'aaa', 'ddd'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'fff', 'aaa', 'eee'})",frozenset({'ddd'}),0.5,0.25,0.25,0.5,2.0,0.125,1.5,3
+"frozenset({'fff', 'eee', 'ddd'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,3
+"frozenset({'aaa', 'ddd', 'eee'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,3
+"frozenset({'fff', 'aaa'})","frozenset({'eee', 'ddd'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,2
+"frozenset({'fff', 'ddd'})","frozenset({'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'fff', 'eee'})","frozenset({'aaa', 'ddd'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'aaa', 'ddd'})","frozenset({'fff', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'aaa', 'eee'})","frozenset({'fff', 'ddd'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'eee', 'ddd'})","frozenset({'fff', 'aaa'})",0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,2
+frozenset({'fff'}),"frozenset({'aaa', 'ddd', 'eee'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'aaa'}),"frozenset({'fff', 'eee', 'ddd'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'ddd'}),"frozenset({'fff', 'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,1
+frozenset({'eee'}),"frozenset({'fff', 'aaa', 'ddd'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+"frozenset({'fff', 'bbb', 'eee'})",frozenset({'ccc'}),0.25,0.25,0.25,1.0,4.0,0.1875,inf,3
+"frozenset({'fff', 'bbb', 'ccc'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'fff', 'ccc', 'eee'})",frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'bbb', 'eee', 'ccc'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,3
+"frozenset({'fff', 'bbb'})","frozenset({'ccc', 'eee'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'eee'})","frozenset({'bbb', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'ccc'})","frozenset({'bbb', 'eee'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+"frozenset({'bbb', 'eee'})","frozenset({'fff', 'ccc'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+"frozenset({'bbb', 'ccc'})","frozenset({'fff', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'eee'})","frozenset({'fff', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+frozenset({'fff'}),"frozenset({'bbb', 'eee', 'ccc'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1
+frozenset({'bbb'}),"frozenset({'fff', 'ccc', 'eee'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'eee'}),"frozenset({'fff', 'bbb', 'ccc'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'ccc'}),"frozenset({'fff', 'bbb', 'eee'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,1
+"frozenset({'ccc', 'eee', 'aaa', 'bbb'})",frozenset({'fff'}),0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,4
+"frozenset({'fff', 'ccc', 'eee', 'aaa'})",frozenset({'bbb'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,4
+"frozenset({'fff', 'ccc', 'aaa', 'bbb'})",frozenset({'eee'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,4
+"frozenset({'fff', 'ccc', 'eee', 'bbb'})",frozenset({'aaa'}),0.25,1.0,0.25,1.0,1.0,0.0,inf,4
+"frozenset({'fff', 'aaa', 'eee', 'bbb'})",frozenset({'ccc'}),0.25,0.25,0.25,1.0,4.0,0.1875,inf,4
+"frozenset({'ccc', 'eee', 'aaa'})","frozenset({'fff', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'ccc', 'aaa', 'bbb'})","frozenset({'fff', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'fff', 'ccc', 'aaa'})","frozenset({'bbb', 'eee'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,3
+"frozenset({'ccc', 'eee', 'bbb'})","frozenset({'fff', 'aaa'})",0.25,0.75,0.25,1.0,1.3333333333333333,0.0625,inf,3
+"frozenset({'fff', 'ccc', 'eee'})","frozenset({'aaa', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'fff', 'ccc', 'bbb'})","frozenset({'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,3
+"frozenset({'aaa', 'eee', 'bbb'})","frozenset({'fff', 'ccc'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,3
+"frozenset({'fff', 'aaa', 'eee'})","frozenset({'ccc', 'bbb'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,3
+"frozenset({'fff', 'aaa', 'bbb'})","frozenset({'ccc', 'eee'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,3
+"frozenset({'fff', 'bbb', 'eee'})","frozenset({'ccc', 'aaa'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,3
+"frozenset({'ccc', 'aaa'})","frozenset({'fff', 'bbb', 'eee'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+"frozenset({'ccc', 'eee'})","frozenset({'fff', 'aaa', 'bbb'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'ccc', 'bbb'})","frozenset({'fff', 'aaa', 'eee'})",0.25,0.5,0.25,1.0,2.0,0.125,inf,2
+"frozenset({'fff', 'ccc'})","frozenset({'aaa', 'eee', 'bbb'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+"frozenset({'aaa', 'eee'})","frozenset({'fff', 'ccc', 'bbb'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'aaa', 'bbb'})","frozenset({'fff', 'ccc', 'eee'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'aaa'})","frozenset({'ccc', 'eee', 'bbb'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,2
+"frozenset({'bbb', 'eee'})","frozenset({'fff', 'ccc', 'aaa'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,2
+"frozenset({'fff', 'eee'})","frozenset({'ccc', 'aaa', 'bbb'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+"frozenset({'fff', 'bbb'})","frozenset({'ccc', 'eee', 'aaa'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,2
+frozenset({'ccc'}),"frozenset({'fff', 'aaa', 'eee', 'bbb'})",0.25,0.25,0.25,1.0,4.0,0.1875,inf,1
+frozenset({'aaa'}),"frozenset({'fff', 'ccc', 'eee', 'bbb'})",1.0,0.25,0.25,0.25,1.0,0.0,1.0,1
+frozenset({'eee'}),"frozenset({'fff', 'ccc', 'aaa', 'bbb'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'bbb'}),"frozenset({'fff', 'ccc', 'eee', 'aaa'})",0.5,0.25,0.25,0.5,2.0,0.125,1.5,1
+frozenset({'fff'}),"frozenset({'ccc', 'eee', 'aaa', 'bbb'})",0.75,0.25,0.25,0.3333333333333333,1.3333333333333333,0.0625,1.1249999999999998,1

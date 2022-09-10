@@ -1,0 +1,40 @@
+support,itemsets,length
+1.0,frozenset({'aaa'}),1
+0.5,frozenset({'bbb'}),1
+0.25,frozenset({'ccc'}),1
+0.25,frozenset({'ddd'}),1
+0.5,frozenset({'eee'}),1
+0.75,frozenset({'fff'}),1
+0.5,"frozenset({'aaa', 'bbb'})",2
+0.25,"frozenset({'aaa', 'ccc'})",2
+0.25,"frozenset({'aaa', 'ddd'})",2
+0.5,"frozenset({'aaa', 'eee'})",2
+0.75,"frozenset({'fff', 'aaa'})",2
+0.25,"frozenset({'bbb', 'ccc'})",2
+0.25,"frozenset({'bbb', 'eee'})",2
+0.5,"frozenset({'fff', 'bbb'})",2
+0.25,"frozenset({'ccc', 'eee'})",2
+0.25,"frozenset({'fff', 'ccc'})",2
+0.25,"frozenset({'eee', 'ddd'})",2
+0.25,"frozenset({'fff', 'ddd'})",2
+0.5,"frozenset({'fff', 'eee'})",2
+0.25,"frozenset({'ccc', 'aaa', 'bbb'})",3
+0.25,"frozenset({'aaa', 'eee', 'bbb'})",3
+0.5,"frozenset({'fff', 'aaa', 'bbb'})",3
+0.25,"frozenset({'aaa', 'eee', 'ccc'})",3
+0.25,"frozenset({'fff', 'aaa', 'ccc'})",3
+0.25,"frozenset({'aaa', 'ddd', 'eee'})",3
+0.25,"frozenset({'fff', 'aaa', 'ddd'})",3
+0.5,"frozenset({'fff', 'aaa', 'eee'})",3
+0.25,"frozenset({'bbb', 'eee', 'ccc'})",3
+0.25,"frozenset({'fff', 'bbb', 'ccc'})",3
+0.25,"frozenset({'fff', 'bbb', 'eee'})",3
+0.25,"frozenset({'fff', 'ccc', 'eee'})",3
+0.25,"frozenset({'fff', 'eee', 'ddd'})",3
+0.25,"frozenset({'ccc', 'aaa', 'eee', 'bbb'})",4
+0.25,"frozenset({'ccc', 'aaa', 'fff', 'bbb'})",4
+0.25,"frozenset({'fff', 'aaa', 'eee', 'bbb'})",4
+0.25,"frozenset({'fff', 'aaa', 'eee', 'ccc'})",4
+0.25,"frozenset({'fff', 'aaa', 'ddd', 'eee'})",4
+0.25,"frozenset({'fff', 'bbb', 'eee', 'ccc'})",4
+0.25,"frozenset({'ccc', 'aaa', 'eee', 'bbb', 'fff'})",5
